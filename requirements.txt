@@ -1,2 +1,1 @@
-Build Command:
-Publish Directory: .
+
