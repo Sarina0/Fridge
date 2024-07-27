@@ -1,0 +1,305 @@
+/* .desktop {
+     background-color: #ffffff; 
+   
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+   
+  
+   
+} */
+
+/* .desktop .overlap-group-wrapper {
+    background-color: #ffffff;
+    width: 1440px;
+    height: 1024px;
+     
+} */
+
+ .desktop .overlap-group {
+    position: relative;
+    width: 291px;
+    height: 223px;
+    top: 30px;
+    left: 424px;
+    background-position: 100% 100%;
+    
+} 
+
+.desktop .overlap {
+    position: absolute;
+    width: 338px;
+    height: 212px;
+    top: 50px;
+    left: 18px;
+    /* background-color: #d9d9d994; */
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(113, 106, 243) 0%, rgba(85,145,89,1) 35%, rgba(0,212,255,1) 100%);
+    border-radius: 30px 30px 0px 0px;
+    border: 3px solid black;
+    z-index:0;
+}
+
+.desktop .rectangle {
+    position: relative;
+    width: 305px;
+    height: 178px;
+    top: 15px;
+    left: 15px;
+    background-color: #d3333385;
+    border-radius: 20px;
+    
+}
+
+.desktop .div {
+    position: absolute;
+    width: 338px;
+    height: 438px;
+    top: 268px;
+    left: 18px;
+    
+}
+
+.desktop .rectangle-2 {
+    position: absolute;
+    width: 338px;
+    height: 420px;
+    top: 4;
+    left: .3;
+    background-color: #1e58748a;
+    border-radius: 0px 0px 30px 30px;
+    border: 3px solid black;
+    border-right: 3px solid  rgb(121, 164, 184);
+
+}
+
+.desktop .rectangle-3 {
+    position: absolute;
+    width: 305px;
+    height: 386px;
+    top: 19px;
+    left: 18px;
+    background-color: #d7737299;
+}
+
+.desktop .rectangle-4 {
+    position: absolute;
+    width: 315px;
+    height: 18px;
+    top: 420px;
+    left: 13px;
+    background-color: #01641896;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.desktop .rectangle-5 {
+    position: absolute;
+    width: 288px;
+    height: 82px;
+    top: 30px;
+    left: 24px;
+    background-color: #b9b3b399;
+}
+
+ .apple {
+    position: absolute;
+    width: 35px;
+    height: 32px;
+    top: 75px;
+    left: 34px;
+    background-color: #dd1f1f;
+    border-radius: 17.5px/16px;
+    z-index:0;
+    transform-origin: 50% 300px;
+    border-bottom-right-radius: 50% 70%;
+    background: linear-gradient(70deg, rgb(194, 38, 38) 0%, rgb(247, 68, 44) 0% , rgb(158, 4, 4) );
+}
+
+ .apple:before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 10px;
+    top: .33px;
+    left: 6px;
+    margin-top: -7px;
+    background-color: #09af17;
+    border-radius: 10px 0px;
+    transform: rotate(-50deg);
+    
+}
+/* .apple::after {
+    content: "";
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: .33px;
+    left: 6px;
+    margin-top: 4px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(209, 20, 20);
+
+
+} */
+.desktop .rectangle-6 {
+    position: absolute;
+    width: 33px;
+    height: 15px;
+    top: 706px;
+    left: 51px;
+    background-color: #91686896;
+}
+
+
+.desktop .rectangle-7 {
+    position: absolute;
+    width: 33px;
+    height: 15px;
+    top: 706px;
+    left: 294px;
+    background-color: #91686896;
+}
+
+.div .door{
+
+    width: 260px;
+    height: 392px;
+    background-color: #8f6a6a96;
+    transform-origin: 50% 300px;
+  margin-left: 344px;
+  margin-bottom: 6px;
+  margin-right: 32px;
+    transform: rotate(1.6deg);
+    transform-origin: 0% 3%;
+    border: 15px solid rgb(121, 164, 184);
+    z-index:-1;
+}
+
+.handel{
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background-color: rgb(72, 72, 77);
+    position:absolute;
+    top: -50px;
+    left:30px;
+}
+
+.milk{
+    height: 50px;
+    width: 40px;
+    position:absolute;
+    top: 57px;
+    left: 84px;
+    background-color: white;
+    border: 3px solid gray;
+    /* border-bottom-left-radius: 500% 100%;
+    border-bottom-right-radius: 500% 100%; */
+   
+    /* border-radius: 10px 10px 10px 10px;  */
+
+    background: linear-gradient(70deg, rgb(201, 191, 191) 0%, rgb(136, 131, 131) 0% , rgb(255, 243, 243) );
+
+}
+.milk:after{
+    content:"";
+    position: absolute;
+    height: 16px;
+    width: 40px;
+    top: -20px;
+    left: -1px;
+    background-color: white;
+    border: 3px solid gray;
+
+    /* border-radius: 2px 2px 2px 2px; ; */
+    background: linear-gradient(70deg, rgb(201, 191, 191) 0%, rgb(136, 131, 131) 0% , rgb(255, 243, 243) );
+    transform: skew(-15deg);
+}
+.milk:before{
+   content:"";
+    height: 50px;
+    width: 15px;
+    position:absolute;
+    top: -3px;
+    left: 40px;
+    background-color: white;
+    border: 3px solid gray;
+    transform: skew();
+    background: linear-gradient(70deg, rgb(201, 191, 191) 0%, rgb(136, 131, 131) 0% , rgb(255, 243, 243) );
+
+}
+
+.triangle{
+    width: 0;
+    height: 4px; 
+   
+    position:absolute;
+    top: -25px;
+    left: 40px;
+    border-left: 7px solid transparent;
+    border-right: 18px solid transparent;
+    
+    border-bottom: 24px solid rgb(138, 138, 138);
+    border-bottom-right-radius:  200% 500%;
+    border-top-left-radius: 700% 300%;
+    border-top-right-radius: 300% 200%;
+    
+}
+
+/* .container{
+    width: 70px;
+    height: 30px;
+    background-color: #ffffff;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 8px;
+    box-shadow: 0 20px 45px rgba(120, 76, 10, 0.25);
+} */
+
+
+
+.container {
+    width: 80px;
+    height: 30px;
+    background-color: rgb(168, 37, 37);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 95px;
+    left: 200px;
+    border-radius: 8px;
+    border: 2px solid pink;
+    border-bottom: 2px solid brown;
+    box-shadow: 0 20px 45px rgba(120, 76, 10, 0.25);
+  }
+  .middle-layer{
+    width: 60px;
+    height: 20px;
+    background-color:rgb(168, 37, 37);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: -10px;
+    left: 39px;
+    border: 2px solid pink;
+    border-bottom: 2px solid brown;
+    border-radius: 8px;
+    box-shadow: 0 20px 45px rgba(120, 76, 10, 0.25);
+  }
+  .top-layer{
+    width: 40px;
+    height: 20px;
+    background-color:rgb(168, 37, 37);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: -30px;
+    left: 39px;
+    border-radius: 8px;
+    border: 2px solid pink;
+   
+    box-shadow: 0 20px 45px rgba(120, 76, 10, 0.25);
+ 
+
+  }
+  
