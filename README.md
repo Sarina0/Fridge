@@ -10,7 +10,7 @@ Utilizes advanced CSS properties such as transform, linear-gradient, and z-index
 Employs CSS Grid and Flexbox to achieve precise alignment and consistent spacing of items.
 # Installation
 - Clone the repository:
-git clone https://github.com/your-username/css-fridge-art.git
+git clone https://github.com/Sarina0/Fridge.git
 cd css-fridge-art
 - Open the project:
 Navigate to the project directory and open the index.html file in your preferred web browser.
